@@ -1,0 +1,92 @@
+Recursive Art Generator - Project Backlog
+=========================================
+
+Core Features
+-------------
+
+1. Design abstract base class ArtWork with required abstract and concrete methods
+2. Implement concrete subclass FractalArt (tree, Sierpinski, Koch variants)
+3. Implement concrete subclass RecursiveTree with recursive tree drawing
+4. Implement concrete subclass SpiralArt with multiple spiral types:
+    - Archimedean Spiral
+    - Logarithmic Spiral
+    - Golden Spiral
+    - Galaxy Spiral (with variable arms)
+5. Implement concrete subclass CellularAutomataArt with advanced grid visualization and aging cells
+6. Implement concrete subclass PolygonFractalArt with recursive polygon drawing
+7. Implement concrete subclass LSystemArt with support for user-defined L-systems:
+    - L-System Sticks (Fractal Plant)
+    - Square Sierpinski
+    - Von Koch Snowflake
+8. Implement GraphicsDisplay to visualize any ArtWork object in a window (800x600 canvas)
+9. Implement ArtPortfolio class with addArtwork, sortByComplexity, findMostComplex, and generateReport methods
+10. Implement method overloading for addArtwork in ArtPortfolio
+11. Implement recursion-based bubble sort for portfolio sorting
+12. Implement proper equals(), toString(), and calculateComplexity() methods for all ArtWork subclasses
+
+User Interface / Main Program
+-----------------------------
+
+13. Build text-based menu system with:
+    - Create New Artwork
+    - Display Artwork
+    - Portfolio Management
+    - Special Features
+    - Demo All Features
+    - Exit
+
+14. Implement Display Artwork feature (from portfolio or temporary list)
+15. Implement Portfolio Management menu:
+    - View portfolio
+    - Sort portfolio
+    - Find most complex artwork
+    - Search by title
+    - Generate report
+    - Save/load portfolio to file
+    - Export artwork description to file
+    - Remove artwork
+16. Implement "Special Features" menu:
+    - Seasonal tree generation
+    - Fibonacci spiral generation
+    - Galaxy spiral generation
+    - Generate Artwork ID
+    - Global statistics
+
+Advanced / Creative Features
+-----------------------------
+
+17. Add seasonal variations for RecursiveTree (spring, summer, fall, winter)
+18. Implement Fibonacci Spiral generation using golden ratio
+19. Implement Galaxy Spiral with variable number of arms
+20. Implement bidirectional spiral option in SpiralArt
+21. Add randomization options for RecursiveTree branches
+22. Tune scaling and centering for all LSystemArt variants to display correctly in 800x600 canvas
+23. Implement advanced color gradients in CellularAutomataArt (age-based coloring)
+24. Implement exportDescription() method in ArtWork and support it in ArtPortfolio export feature
+25. Implement saveToFile() and loadFromFile() methods for ArtPortfolio (serialization)
+26. Implement generateArtworkID() feature (using hash of title + artist + date)
+27. Implement AI-based Critique System:
+    - Implement type-specific critiques for:
+        - FractalArt
+        - RecursiveTree
+        - SpiralArt
+        - PolygonFractalArt
+        - LSystemArt
+        - CellularAutomataArt
+    - Implement randomFinalComment() with type-relevant art critic tone
+    - Integrate AI Critique in "Demo All Features" and portfolio export
+
+Polish / Final Steps
+-----------------------------
+
+28. Create "Demo All Features" function that exercises all supported art types and portfolio operations
+29. Write project reflection documenting technical achievements and creative features
+30. Prepare sample output file demonstrating full functionality
+31. Prepare Project README.md documenting all features, structure, usage, and learning outcomes
+32. Final testing: verify proper display, sizing, and functionality of all art types and menu options
+33. Submit final project with:
+    - Full source code
+    - Project Reflection
+    - Sample Output
+    - ProjectPlan.txt (this file)
+    - Project README.md

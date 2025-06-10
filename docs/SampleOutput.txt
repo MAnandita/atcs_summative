@@ -1,0 +1,200 @@
+# Sample Output - Recursive Art Generator
+
+╔══════════════════════════════════════════════════════════╗
+║       WELCOME TO THE RECURSIVE ART GENERATOR             ║
+║              AP CS Unit 7 Final Project                  ║
+╚══════════════════════════════════════════════════════════╝
+
+Enter your name: John Doe
+
+╔════════════════════════════════════════╗
+║              MAIN MENU                 ║
+╠════════════════════════════════════════╣
+║  1. Create New Artwork                 ║
+║  2. Display Artwork                    ║
+║  3. Portfolio Management               ║
+║  4. Special Features                   ║
+║  5. Demo All Features (Auto)           ║
+║  6. Exit                               ║
+╚════════════════════════════════════════╝
+Enter your choice: 5
+
+=== DEMONSTRATING ALL FEATURES ===
+This will create sample artworks and show all functionality.
+
+1. Creating diverse artworks...
+
+2. Adding to portfolio (demonstrating method overloading)...
+Added: Mystic Tree to portfolio
+Added: Quick Tree to portfolio
+Added 3 artworks to portfolio
+Added: Snow Crystal to portfolio
+Added: Wild Forest to portfolio
+Added: Dual Spiral to portfolio
+Added: Fractal Plant to portfolio
+Added: Square Sierpinski to portfolio
+Added: Von Koch Snowflake to portfolio
+Added: Polygon Star to portfolio
+Added: Cellular Glow to portfolio
+
+3. Displaying portfolio...
+
+========================================
+Portfolio: My Creative Portfolio
+Curator: John Doe
+Created: Mon Jun 09 11:30:00 PDT 2025
+Total Artworks: 11
+========================================
+
+1. Fractal Art - "Mystic Tree" by Demo Artist (Created: 2025-06-09, Complexity: 127)
+2. Recursive Tree - "Quick Tree" by Demo Artist (Created: 2025-06-09, Complexity: 255)
+3. Fractal Art - "Triangle Dream" by Demo Artist (Created: 2025-06-09, Complexity: 63)
+4. Recursive Tree - "Simple Oak" by Demo Artist (Created: 2025-06-09, Complexity: 255)
+5. Spiral Art - "Golden Ratio" by Demo Artist (Created: 2025-06-09, Complexity: 127)
+6. Fractal Art - "Snow Crystal" by Demo Artist (Created: 2025-06-09, Complexity: 31)
+7. Recursive Tree - "Wild Forest" by Demo Artist (Created: 2025-06-09, Complexity: 1093)
+8. Spiral Art - "Dual Spiral" by Demo Artist (Created: 2025-06-09, Complexity: 127)
+9. L-System - "Fractal Plant" by Demo Artist (Created: 2025-06-09, Complexity: 1024)
+10. Polygon Fractal - "Polygon Star" by Demo Artist (Created: 2025-06-09, Complexity: 80)
+11. Cellular Automata - "Cellular Glow" by Demo Artist (Created: 2025-06-09, Complexity: 1000)
+
+4. Demonstrating recursive features...
+Total Complexity: 4182
+Most Complex: Wild Forest (Complexity: 1093)
+
+5. Sorting by complexity...
+Portfolio sorted by complexity!
+
+========================================
+Portfolio: My Creative Portfolio
+Curator: John Doe
+Created: Mon Jun 09 11:30:00 PDT 2025
+Total Artworks: 11
+========================================
+
+1. Fractal Art - "Snow Crystal" by Demo Artist (Created: 2025-06-09, Complexity: 31)
+2. Fractal Art - "Triangle Dream" by Demo Artist (Created: 2025-06-09, Complexity: 63)
+3. Polygon Fractal - "Polygon Star" by Demo Artist (Created: 2025-06-09, Complexity: 80)
+4. Spiral Art - "Golden Ratio" by Demo Artist (Created: 2025-06-09, Complexity: 127)
+5. Spiral Art - "Dual Spiral" by Demo Artist (Created: 2025-06-09, Complexity: 127)
+6. Fractal Art - "Mystic Tree" by Demo Artist (Created: 2025-06-09, Complexity: 127)
+7. Recursive Tree - "Quick Tree" by Demo Artist (Created: 2025-06-09, Complexity: 255)
+8. Recursive Tree - "Simple Oak" by Demo Artist (Created: 2025-06-09, Complexity: 255)
+9. L-System - "Fractal Plant" by Demo Artist (Created: 2025-06-09, Complexity: 1024)
+10. Cellular Automata - "Cellular Glow" by Demo Artist (Created: 2025-06-09, Complexity: 1000)
+11. Recursive Tree - "Wild Forest" by Demo Artist (Created: 2025-06-09, Complexity: 1093)
+
+6. Generating comprehensive report...
+
+=== PORTFOLIO REPORT ===
+Portfolio: My Creative Portfolio
+Curator: John Doe
+Created: Mon Jun 09 11:30:00 PDT 2025
+
+--- Statistics ---
+Total Artworks: 11
+Average Complexity: 380.18
+Total Complexity: 4182
+Most Complex: Wild Forest (Complexity: 1093)
+
+--- Art Type Distribution ---
+Fractal Art: 3
+Recursive Tree: 3
+Spiral Art: 2
+L-System: 1
+Polygon Fractal: 1
+Cellular Automata: 1
+
+--- Global Statistics ---
+Total Portfolios Created: 1
+Total Artworks Across All Portfolios: 11
+========================
+
+7. Displaying a sample artwork (Tree)...
+
+=== Displaying Recursive Tree: Simple Oak ===
+Max Depth: 7
+Branch Count: 2
+Randomized: false
+Generating tree structure...
+
+=== Tree Structure ===
+Trunk: Base at (400, 600)
+
+Branch Root [Depth 7]: (400,600) to (400,450) - Length: 150.0
+  Branch Root-L [Depth 6]: (400,450) to (321,337) - Length: 112.5
+    [... continues ...]
+Tree generation complete!
+Total branches created: 127
+
+8. Demonstrating special features...
+
+Generating winter tree...
+
+=== Displaying Recursive Tree: Winter Solitude ===
+Max Depth: 5
+Branch Count: 2
+Randomized: false
+Generating tree structure...
+[Winter Tree: Bare branches, stark structure]
+[... winter tree structure ...]
+
+Generating Fibonacci Spiral...
+
+=== Displaying Spiral Art: Mathematical Beauty ===
+Type: golden
+Segments: 144
+Bidirectional: false
+Generating spiral pattern...
+[Fibonacci Spiral: Based on Fibonacci sequence]
+Using golden ratio for growth
+Fibonacci sequence: 1 1 2 3 5 8 13 21 34 55 ...
+[... continues with spiral segments ...]
+Main spiral ended at radius 293.9
+Spiral generation complete!
+Total segments drawn: 144
+
+Generating Galaxy Spiral...
+
+=== Displaying Spiral Art: Galaxy Spiral ===
+Type: galaxy spiral with 5 arms
+[Galaxy Spiral: Starry arms forming cosmic pattern...]
+Galaxy generation complete!
+
+Exporting artwork description to file...
+
+Export successful! Saved to: art_description.txt
+
+Saving portfolio to file...
+
+Portfolio successfully saved to: portfolio.ser
+
+Loading portfolio from file...
+
+Portfolio loaded successfully from: portfolio.ser
+
+Generating AI-based artwork critique...
+
+[AI CRITIQUE] This tree demonstrates effective control of branch angles and depth. The tapering of branches feels natural, and the variation across levels adds interest without overwhelming the form.
+Overall, this is a well-crafted example of recursive visual art.
+
+=== DEMONSTRATION COMPLETE ===
+All features have been demonstrated!
+You can now explore the features individually from the main menu.
+
+Press Enter to continue...
+
+╔════════════════════════════════════════╗
+║              MAIN MENU                 ║
+╠════════════════════════════════════════╣
+║  1. Create New Artwork                 ║
+║  2. Display Artwork                    ║
+║  3. Portfolio Management               ║
+║  4. Special Features                   ║
+║  5. Demo All Features (Auto)           ║
+║  6. Exit                               ║
+╚════════════════════════════════════════╝
+Enter your choice: 6
+
+Thank you for using the Art Generator!
+Total artworks created: 11
